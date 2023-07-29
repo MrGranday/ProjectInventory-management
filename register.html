@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="registration">
+        <form action="" id="register" class="register" method="post">
+          <h1>Sign Up</h1>
+          <div class="content">
+            <div class="form-control">
+              <label for="fname">First Name </label>
+              <input type="text" name="fname" placeholder="e.g. Osman" />
+              <!-- <small>Error message</small> -->
+            </div>
+            <div class="form-control">
+              <label for="">Last Name </label>
+              <input type="text" name="lname" placeholder="e.g. Granday" />
+              <!-- <small>Error message</small> -->
+            </div>
+
+            <div class="form-control">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+              <!-- <small>Error message</small> -->
+            </div>
+            <div class="form-control">
+              <label for="passwordConfirm"> Confirm Password</label>
+              <input type="password" name="password" id="password1" />
+              <!-- <small>Error message</small> -->
+            </div>
+            <div class="form-control">
+              <label for="email">Enter Your Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="e.g. osman@Domain"
+              />
+              <!-- <small>Error message</small> -->
+            </div>
+            <div class="form-control">
+              <label for="">Enter NIC Number </label>
+              <input
+                type="number"
+                name="Mname"
+                placeholder="e.g. 434XXX-XXXX-XXXX"
+              />
+              <!-- <small>Error message</small> -->
+            </div>
+
+            <div class="gender-category">
+              <span class="Gender">Gender</span><br />
+              <br />
+              <!-- <small>Error message</small> -->
+
+              <label for="theRadiomale">Male</label>
+              <input type="radio" name="gender" id="male" />
+
+              &nbsp; &nbsp;
+              <label for="theRadiofemal">Female</label>
+              <input type="radio" name="gender" id="female" />
+              &nbsp; &nbsp;
+              <label for="theRadioPNTS">Other</label>
+              <input type="radio" name="gender" id="pnottosay" />
+              <br />
+            </div>
+
+            <div class="form-control">
+              <label for="Birthdate">Date of Birth</label>
+              <input type="date" name="" id="date1" />
+              <!-- <small>Error message</small> -->
+            </div>
+            <div class="form-control">
+              <label for="Curentdate"> Current Date </label>
+              <input type="date" name="" id="date2" />
+              <!-- <small>Error message</small> -->
+            </div>
+
+            <div class="form-control">
+              <label for="City">City</label>
+              <input type="text" name="Cname" placeholder="e.g. Abbottabad" />
+              <!-- <small>Error message</small> -->
+            </div>
+
+            <input type="reset" value="Reset" id="button" class="rig abutton" />
+            <a
+              href="inventory.html"
+              type="submit"
+              value="Submit"
+              id="button"
+              class="sign abutton"
+            >
+              Submit</a
+            >
+            <!-- <input
+              type="submit"
+              value="Submit"
+              id="button"
+              class="sign abutton"
+            /> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
